@@ -1,0 +1,26 @@
+<annotation>
+	<folder>capturedImages</folder>
+	<filename>hello.d6ce0672-1e14-11f0-860b-010101010000.jpg</filename>
+	<path>D:\Study\Semester 6\Assignments\Applied_AI-Term_Project\Tensorflow\workspace\images\capturedImages\hello.d6ce0672-1e14-11f0-860b-010101010000.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hello</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>373</xmin>
+			<ymin>162</ymin>
+			<xmax>576</xmax>
+			<ymax>444</ymax>
+		</bndbox>
+	</object>
+</annotation>
