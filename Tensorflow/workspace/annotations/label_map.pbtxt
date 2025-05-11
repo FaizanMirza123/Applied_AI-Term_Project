@@ -1,8 +1,28 @@
-item { 
-	name:'hello'
-	id:1
+item {
+  id: 1
+  name: 'hello'
 }
-item { 
-	name:'thanks'
-	id:2
+item {
+  id: 2
+  name: 'thanks'
+}
+item {
+  id: 3
+  name: 'Facepalm'
+}
+item {
+  id: 4
+  name: 'GoodBye'
+}
+item {
+  id: 5
+  name: 'Please'
+}
+item {
+  id: 6
+  name: 'RaisedHand'
+}
+item {
+  id: 7
+  name: 'Shh'
 }

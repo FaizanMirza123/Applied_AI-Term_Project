@@ -1,0 +1,26 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>Facepalm.bf2e6f8b-2e7a-11f0-921f-010101010000.jpg</filename>
+	<path>C:\Users\faiza\OneDrive\Desktop\New folder\Facepalm.bf2e6f8b-2e7a-11f0-921f-010101010000.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Facepalm</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>270</xmin>
+			<ymin>100</ymin>
+			<xmax>460</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+</annotation>

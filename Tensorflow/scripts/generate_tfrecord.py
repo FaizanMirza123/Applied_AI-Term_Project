@@ -2,7 +2,7 @@ import os
 import xml.etree.ElementTree as ET
 import tensorflow as tf
 from object_detection.utils import dataset_util
-
+import glob
 # Function to parse the XML annotation
 def parse_annotation(xml_file):
     tree = ET.parse(xml_file)
@@ -86,17 +86,10 @@ def write_to_tfrecord(xml_files, tfrecord_file):
             writer.write(example.SerializeToString())
 
 if __name__ == "__main__":
-    test_xml_files = [r'Tensorflow\workspace\images\test\hello.d3e9d68d-1e14-11f0-a521-010101010000.xml', 
-                      r'Tensorflow\workspace\images\test\hello.d4a85ada-1e14-11f0-8dbc-010101010000.xml', 
-                      # Add more XML files as needed
-                     ]
-    
-    train_xml_files = [r'Tensorflow\workspace\images\train\hello.d6ce0672-1e14-11f0-860b-010101010000.xml', 
-                       r'Tensorflow\workspace\images\train\hello.d53d8eb5-1e14-11f0-8bba-010101010000.xml', 
-                       # Add more XML files as needed
-                      ]
+    test_xml_files = glob.glob(r'Tensorflow/workspace/images/test/*.xml')
+    train_xml_files = glob.glob(r'Tensorflow/workspace/images/train/*.xml')
 
     # Convert and save the TFRecords
-    write_to_tfrecord(train_xml_files, 'train.record')
-    write_to_tfrecord(test_xml_files, 'test.record')
+    write_to_tfrecord(train_xml_files, 'Tensorflow/workspace/annotations/train.record')
+    write_to_tfrecord(test_xml_files, 'Tensorflow/workspace/annotations/test.record')
     print("TFRecord files created successfully.")

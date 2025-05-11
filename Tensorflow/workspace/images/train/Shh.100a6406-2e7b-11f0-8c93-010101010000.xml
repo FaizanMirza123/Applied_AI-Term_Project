@@ -1,0 +1,26 @@
+<annotation>
+	<folder>New folder</folder>
+	<filename>Shh.100a6406-2e7b-11f0-8c93-010101010000.jpg</filename>
+	<path>C:\Users\faiza\OneDrive\Desktop\New folder\Shh.100a6406-2e7b-11f0-8c93-010101010000.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Shh</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>214</ymin>
+			<xmax>292</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>
